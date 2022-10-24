@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Selection</title>
+</head>
+<body>
+<center>
+        <h1>Rana Rabeees</h1>
+        <h3>Rana Rabeees Is Great Man</h3>
+</center>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+html{
+    font-size: 60px;
+    font-family: algerian;
+    font-style: italic;
+    letter-spacing: 10px;
+}
+h1{
+    color: brown;
+    mix-blend-mode: screen;
+}
+h3{
+    color: darksalmon;
+    mix-blend-mode: screen;
+}
+body{
+    background-image: url(./1.jfif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+::selection{
+background: rgb(237, 23, 44);
+
+}
+h1::selection{
+    background:green;
+}
+</style>
+</body>
+</html>
